@@ -58,7 +58,7 @@ Turno 7 - Elija coordenada
 
 ## Sugerencia de presentación
 
-```bash
+```
 ┏[manuel]--[main ≡ ● ]
 ┖[~/misRepos/pyRescateDeNaufragio/src]
    java Rescate.java
@@ -88,7 +88,8 @@ Ingrese coordenada: a1
 8| .  .  .  .  .  .  .  . 
  +------------------------
 
- << MOMENTOS MAS TARDE >>
+ << MAS ADELANTE... >>
+
  +-a--b--c--d--e--f--g--h-
 1| ~  ~  ~  ~  ~  ~  .  . 
 2| ~ \O/\O/ ~  ~  ~  .  . 
