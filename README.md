@@ -51,6 +51,69 @@ Turno 7 - Elija coordenada
   - Podría no haber rescatado ningún soldadito.
   - Podría haber rescatado algunos soldaditos.
 
-## Reto extra
+## Retos extra
 
 - A partir del turno 30, empieza a soplar un viento y cada 5 turnos los soldaditos podrían (todos) desplazarse una casilla aleatoriamente (sea derecha, izquierda, arriba o abajo).
+- Tiene una oportunidad de lanzar una red. La red despeja (y rescata) las ocho celdas alrededor de la celda elegida. Por contra, consume 5 turnos, así que sea cuidadoso...
+
+## Sugerencia de presentación
+
+```bash
+┏[manuel]--[main ≡ ● ]
+┖[~/misRepos/pyRescateDeNaufragio/src]
+   java Rescate.java
+ +-a--b--c--d--e--f--g--h-
+1| .  .  .  .  .  .  .  . 
+2| .  .  .  .  .  .  .  . 
+3| .  .  .  .  .  .  .  . 
+4| .  .  .  .  .  .  .  . 
+5| .  .  .  .  .  .  .  . 
+6| .  .  .  .  .  .  .  . 
+7| .  .  .  .  .  .  .  . 
+8| .  .  .  .  .  .  .  . 
+ +------------------------
+
+Estas en el turno 1
+Has rescatado 0
+Ingrese coordenada: a1
+
+ +-a--b--c--d--e--f--g--h-
+1| ~  .  .  .  .  .  .  . 
+2| .  .  .  .  .  .  .  . 
+3| .  .  .  .  .  .  .  . 
+4| .  .  .  .  .  .  .  . 
+5| .  .  .  .  .  .  .  . 
+6| .  .  .  .  .  .  .  . 
+7| .  .  .  .  .  .  .  . 
+8| .  .  .  .  .  .  .  . 
+ +------------------------
+
+ << MOMENTOS MAS TARDE >>
+ +-a--b--c--d--e--f--g--h-
+1| ~  ~  ~  ~  ~  ~  .  . 
+2| ~ \O/\O/ ~  ~  ~  .  . 
+3| ~  ~  ~ \O/ ~  ~  .  . 
+4| ~ \O/\O/\O/ ~ \O/ .  . 
+5| ~ \O/ ~  ~ \O/ ~  .  . 
+6| ~  ~  ~  ~ \O/\O/ .  . 
+7| ~  ~  ~  ~ \O/ ~  .  . 
+8| ~ \O/ ~  ~ \O/ ~  .  . 
+Estas en el turno 49
+Has rescatado 14
+Ingrese coordenada: g1
+
+ +-a--b--c--d--e--f--g--h-
+1| ~  ~  ~  ~  ~  ~  ~  . 
+2| ~ \O/\O/ ~  ~  ~  .  . 
+3| ~  ~  ~ \O/ ~  ~  .  . 
+4| ~ \O/\O/\O/ ~ \O/ .  . 
+5| ~ \O/ ~  ~ \O/ ~  .  . 
+6| ~  ~  ~  ~ \O/\O/ .  . 
+7| ~  ~  ~  ~ \O/ ~  .  . 
+8| ~ \O/ ~  ~ \O/ ~  .  . 
+ +------------------------
+Estas en el turno 50
+Has rescatado 14
+El juego ha terminado
+
+```bash
